@@ -1,17 +1,19 @@
-  
-  
-  # hghhghgfhgf  
-  
-  # https://img.shields.io/badge/License-Apache-aqua
-  
-  ## Description
-  
-  ghfhgfhghf
+# README-Generator
 
-  JavaScript,HTML,CSS,ES6,jQuery,Bootstrap,Node
-
-  ## Table of Contents
+## [![License:MIT](https://img.shields.io/badge/License-MIT-aqua)](https://choosealicense.com/licenses/MIT)
   
+
+## Description
+
+Dynamically creates a README file using prompts in NodeJS
+
+Built with:
+
+- JavaScript\n - ES6\n - jQuery\n - Node
+  
+
+## Table of Contents
+
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
@@ -19,40 +21,39 @@
   - [Contributing](#contributing)
   - [Tests](#tests)
   - [Questions](#questions)
+  
 
-  ## Installation
-  
-  dfdfgdgd
-  
-  ## Usage
-  
-  fgfgdfg
+## Installation
 
-  ## License
+Clone repository and download NodeJS. Open terminal and install npm. Navigate directory to the app's root folder. Run \`node index\` and answer prompts.
   
-  # Apache
+
+## Usage
+
+App is used to create professional README files with simple prompts.
   
-  # https://choosealicense.com/licenses/Apache
- 
-  Check out the badges hosted by [shields.io](https://shields.io/).
+
+## License
+
+## MIT
+
+This application is covered by the [MIT License](https://choosealicense.com/licenses/MIT)
   
-  This application is covered by the Apache license. 
+Check out the badges hosted by [shields.io](https://shields.io/).
   
-  ## Contributing
+
+## Contributing
+
+No other developers at this time.
   
-  undefined
-  
-  ## Tests
-  
-  undefined
- 
-  ## Questions
-  
-  sgfffg
-  
-  Find me on GitHub: [ghgfhfhf](https://github.com/ghgfhfhf)
- 
-  Email me with any questions: hghgfhgfh
- 
-  _This README was generated with ❤️ by dghhghfusing [README-generator](https://github.com/SuperDasMan/README-Generator)_
-  
+
+## Tests
+
+No specified tests were created for this project.
+
+
+## Questions
+
+For any questions, comments, or bug reports, please reach out to me on [GitHub: SuperDasMan](https://github.com/SuperDasMan) or [via Email!](mailto:joshwest.biz@gmail.com)
+
+_This README was generated with ❤️ by Josh West using [README-generator](https://github.com/SuperDasMan/README-Generator)_
