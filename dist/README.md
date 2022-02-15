@@ -9,7 +9,7 @@ Dynamically creates a README file using prompts in NodeJS
 
 Built with:
 
- `\-JavaScript<br />-ES6<br />-jQuery<br />-Node`
+ -JavaScript<br />-ES6<br />-jQuery<br />-Node
   
 
 ## Table of Contents
@@ -25,7 +25,7 @@ Built with:
 
 ## Installation
 
-Clone repository and download NodeJS. Open terminal and install npm. Navigate directory to the app's root folder. Run `\node index` and answer prompts.
+Clone repository and download NodeJS. Open terminal and install npm. Navigate directory to the app's root folder. Run `node index` and answer prompts.
   
 
 ## Usage
