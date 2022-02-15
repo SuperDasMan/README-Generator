@@ -3,22 +3,22 @@ const fs = require('fs');
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  licenseBadge = "https://img.shields.io/badge/License-" + license + "-aqua";
+  licenseBadge = `[![License:${license}](https://img.shields.io/badge/License-${license}-aqua)](https://choosealicense.com/licenses/${license})`;
     if (license === '') {
       return false;
   } else {
-  return `# ${licenseBadge}`;
+  return `## ${licenseBadge}`;
   }
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  licenseLink = `https://choosealicense.com/licenses/${license}`;
+  licenseLink = `[![${license}]](https://choosealicense.com/licenses/${license})`;
     if (license === '') {
       return false;
     } else {
-    return `# ${licenseLink}`;
+    return `${licenseLink}`;
     }
 }
 
@@ -29,7 +29,7 @@ function renderLicenseSection(license) {
     if (license === '') {
       return false;
     } else {
-    return `# ${license}`;
+    return `## ${licenseSection}`;
   }
 }
 
@@ -39,18 +39,22 @@ function generateMarkdown(data) {
   return `  
   ${[data]
   .map(({ name, github, email, title, description, languages, installation, usage, license, contributing, tests, contact }) => {
-  return `
-  # ${title}  
-  ${renderLicenseBadge(license)}
-  <br />
-  <br />
-  ## Description
-  ${description}
-  <br />
-  ${languages.map(language => language).join(',')}
-  <br />
-  <br />
-  ## Table of Contents
+  return `# ${title}
+
+${renderLicenseBadge(license)}
+
+
+## Description
+
+${description}
+
+Built with:
+
+${languages.map(language => language).join('/n - ')}
+
+
+## Table of Contents
+
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
@@ -58,44 +62,43 @@ function generateMarkdown(data) {
   - [Contributing](#contributing)
   - [Tests](#tests)
   - [Questions](#questions)
-  <br />
-  <br />
-  ## Installation
-  ${installation}
-  <br />
-  <br />
-  ## Usage
-  ${usage}
-  <br />
-  <br />
-  ## License
-  ${renderLicenseSection(license)}
-  ${renderLicenseLink(license)}
-  <br />
-  Check out the badges hosted by [shields.io](https://shields.io/).
-  This application is covered by the ${license} license. 
-  <br />
-  <br />
-  ## Contributing
-  ${contributing}
-  <br />
-  <br />
-  ## Tests
-  ${tests}
-  <br />
-  <br />
-  ## Questions
-  ${contact}
-  <br />
-  <br />
-  Find me on GitHub: [${github}](https://github.com/${github})
-  <br />
-  <br />
-  Email me with any questions: ${email}
-  <br />
-  <br />
-  _This README was generated with ❤️ by ${name}using [README-generator](https://github.com/SuperDasMan/README-Generator)_
-  `;
+
+
+## Installation
+
+${installation}
+
+
+## Usage
+
+${usage}
+
+
+## License
+
+${renderLicenseSection(license)}
+
+This application is covered by the [${license}license](${renderLicenseLink(license)}).
+
+Check out the badges hosted by [shields.io](https://shields.io/).
+
+
+## Contributing
+
+${contributing}
+
+
+## Tests
+
+${tests}
+
+
+## Questions
+
+${contact}[GitHub: ${github}](https://github.com/${github}) or [Email me](mailto:${email})
+
+_This README was generated with ❤️ by ${name} using [README-generator](https://github.com/SuperDasMan/README-Generator)_
+`;
 })
 }
 `;
