@@ -9,12 +9,10 @@ Dynamically creates a README file using prompts in NodeJS
 
 Built with:
 
-<<<<<<< HEAD
 -JavaScript<br />-ES6<br />-jQuery<br />-Node
-=======
- -JavaScript<br />-ES6<br />-jQuery<br />-Node
->>>>>>> ce2092d927576ae6566bfddfe4e62496e29a4f6a
   
+[GitHub Repo](https://github.com/SuperDasMan/README-Generator)
+
 
 ## Table of Contents
 
@@ -35,34 +33,6 @@ Clone repository and download NodeJS. Open terminal and install npm. Navigate di
 ## Usage
 
 App is used to create professional README files with simple prompts.
-<<<<<<< HEAD
-
-
-## License
-
-## MIT
-
-This application is covered by the [MIT license](https://choosealicense.com/licenses/MIT).
-  
-Check out the badges hosted by [shields.io](https://shields.io/).
-
-
-## Contributing
-
-undefined
-  
-
-## Tests
-
-undefined
-
-
-## Questions
-
-For any questions, comments, or bug reports, please reach out to me on [GitHub: SuperDasMan](https://github.com/SuperDasMan) or [via Email!](mailto:joshwest.biz@gmail.com)
-  
-_This README was generated with ❤️ by Josh West using [README-generator](https://github.com/SuperDasMan/README-Generator)_
-=======
   
 
 ## License
@@ -89,4 +59,3 @@ No specified tests were created for this project.
 For any questions, comments, or bug reports, please reach out to me on [GitHub: SuperDasMan](https://github.com/SuperDasMan) or [via Email!](mailto:joshwest.biz@gmail.com)
 
 _This README was generated with ❤️ by Josh West using [README-generator](https://github.com/SuperDasMan/README-Generator)_
->>>>>>> ce2092d927576ae6566bfddfe4e62496e29a4f6a
