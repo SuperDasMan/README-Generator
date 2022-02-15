@@ -1,0 +1,22 @@
+{
+  "name": "static-site",
+  "version": "1.0.0",
+  "description": "Command-line application that uses input from a user to dynamically generate a README for a GitHub project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuperDasMan/README-Generator.git"
+  },
+  "author": "Josh West",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SuperDasMan/README-Generator/issues"
+  },
+  "homepage": "https://github.com/SuperDasMan/README-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
