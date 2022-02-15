@@ -44,12 +44,12 @@ Check out the badges hosted by [shields.io](https://shields.io/).
 
 ## Contributing
 
-undefined
+No other developers at this time.
   
-
+  
 ## Tests
 
-undefined
+No specified tests were created for this project.
 
 
 ## Questions
