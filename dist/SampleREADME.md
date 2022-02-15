@@ -9,7 +9,7 @@ Dynamically creates a README file using prompts in NodeJS
 
 Built with:
 
-- JavaScript\n - ES6\n - jQuery\n - Node
+-JavaScript<br />-ES6<br />-jQuery<br />-Node
   
 
 ## Table of Contents
@@ -25,7 +25,7 @@ Built with:
 
 ## Installation
 
-Clone repository and download NodeJS. Open terminal and install npm. Navigate directory to the app's root folder. Run \`node index\` and answer prompts.
+Clone repository and download NodeJS. Open terminal and install npm. Navigate directory to the app's root folder. Run `node index` and answer prompts.
   
 
 ## Usage
@@ -37,7 +37,7 @@ App is used to create professional README files with simple prompts.
 
 ## MIT
 
-This application is covered by the [MIT License](https://choosealicense.com/licenses/MIT)
+This application is covered by the [MIT License](https://choosealicense.com/licenses/MIT).
   
 Check out the badges hosted by [shields.io](https://shields.io/).
   

@@ -78,7 +78,7 @@ ${usage}
 
 ${renderLicenseSection(license)}
 
-This application is covered by the [${license}](${renderLicenseLink(license)}) license.
+This application is covered by the [${license}license](${renderLicenseLink(license)}).
 
 Check out the badges hosted by [shields.io](https://shields.io/).
 
