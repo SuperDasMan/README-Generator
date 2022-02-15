@@ -9,7 +9,7 @@ Dynamically creates a README file using prompts in NodeJS
 
 Built with:
 
-- JavaScript\n - ES6\n - jQuery\n - Node
+- JavaScript \n - ES6 \n - jQuery \n - Node
   
 
 ## Table of Contents
