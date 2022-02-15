@@ -126,7 +126,10 @@ const questions = [
     type: 'confirm',
     name: 'confirmContributing',
     message: 'Did any other developers Contribute to this project?',
-    default: false
+    default: false,
+    validate: confirmContributingInput => {
+      return confirmContributingInput ? true : (false, 'No other developers at this time.');
+    }
   },
   {
     type: 'input',
@@ -138,7 +141,10 @@ const questions = [
     type: 'confirm',
     name: 'confirmTests',
     message: 'Did you run any Tests on this project?',
-    default: true
+    default: true,
+    validate: confirmContributingInput => {
+      return confirmContributingInput ? true : (false, 'No specified tests were created for this project.');
+    }
   },
   {
     type: 'input',
@@ -149,7 +155,7 @@ const questions = [
   {
     type: 'input',
     name: 'contact',
-    message: 'Enter your Contact Instructions for sending Questions regarding this project  (Required)',
+    message: 'Enter your Contact Instructions for sending Questions regarding this project (Required)',
     validate: contactInput => {
       if (contactInput) {
         return true;
