@@ -37,7 +37,7 @@ App is used to create professional README files with simple prompts.
 
 ## MIT
 
-This application is covered by the [MIT] License.(https://choosealicense.com/licenses/MIT)
+This application is covered by the [MIT License](https://choosealicense.com/licenses/MIT).
   
 Check out the badges hosted by [shields.io](https://shields.io/).
   
