@@ -112,14 +112,14 @@ const questions = [
     name: "license",
     message: "Chose the appropriate license for this project: ",
     choices: [
-        "apache",
-        "boost",
-        "gnu",
-        "isc",
-        "mit",
-        "mozilla",
-        "unlicense",
-        "none"
+        "Apache",
+        "Boost",
+        "GNU",
+        "ISC",
+        "MIT",
+        "Mozilla",
+        "Unlicense",
+        "None"
     ]
   },
   {
