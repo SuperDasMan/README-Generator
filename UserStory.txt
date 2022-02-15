@@ -1,0 +1,21 @@
+## AS A developer
+
+	- I WANT a README generator
+ 
+	- SO THAT I can quickly create a professional README for a new project
+
+## GIVEN a command-line application that accepts user input
+
+	```Prompt for repository info and generate README with Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions```
+
+	```Project title displayed as README title```
+
+	```Information given by user added respective to README sections```
+
+	```Badge for chosen license added near top of README and notice added to appropriate section of README```
+
+	```GitHub username added to Questions section, with link to GitHub profile```
+
+	```Email address added to questions section, with contact instructions```
+
+	```Links in Table of Contents redirect to corresponding section```
