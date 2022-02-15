@@ -1,6 +1,6 @@
 # README-Generator
 
-## [![License:MIT](https://img.shields.io/badge/License-MIT-aqua)](https://choosealicense.com/licenses/MIT)
+## [![License:MIT](https://img.shields.io/badge/License-MIT-aqua)](https://opensource.org/licenses/MIT)
   
 
 ## Description
@@ -38,7 +38,7 @@ App is used to create professional README files with simple prompts.
 
 ## MIT
 
-This application is covered by the [MIT license](https://choosealicense.com/licenses/MIT).
+This application is covered by the [MIT license](https://opensource.org/licenses/MIT).
   
 Check out the badges hosted by [shields.io](https://shields.io/).
 
