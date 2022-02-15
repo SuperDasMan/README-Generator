@@ -8,7 +8,8 @@
 Dynamically creates a README file using prompts in NodeJS
 
 Built with:
-JavaScript/n - ES6/n - jQuery/n - Node
+
+- JavaScript\n - ES6\n - jQuery\n - Node
   
 
 ## Table of Contents
@@ -30,29 +31,29 @@ Clone repository and download NodeJS. Open terminal and install npm. Navigate di
 ## Usage
 
 App is used to create professional README files with simple prompts.
-
+  
 
 ## License
 
 ## MIT
 
-This application is covered by the [![MIT]] license.(https://choosealicense.com/licenses/MIT)
+This application is covered by the [MIT License](https://choosealicense.com/licenses/MIT)
   
 Check out the badges hosted by [shields.io](https://shields.io/).
-
+  
 
 ## Contributing
 
-undefined
+No other developers at this time.
   
 
 ## Tests
 
-undefined
+No specified tests were created for this project.
 
 
 ## Questions
 
 For any questions, comments, or bug reports, please reach out to me on [GitHub: SuperDasMan](https://github.com/SuperDasMan) or [via Email!](mailto:joshwest.biz@gmail.com)
-  
+
 _This README was generated with ❤️ by Josh West using [README-generator](https://github.com/SuperDasMan/README-Generator)_
