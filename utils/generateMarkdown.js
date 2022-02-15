@@ -52,6 +52,8 @@ Built with:
 
 ${languages.map(language => language).join('/n - ')}
 
+[GitHub Repo](https://github.com/${github}/${title}/)
+
 
 ## Table of Contents
 
