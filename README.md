@@ -27,7 +27,10 @@ Built with:
 ## Installation
 
 Clone repository and download NodeJS. Open terminal and install npm. Navigate directory to the app's root folder. Run `node index` and answer prompts.
-  
+
+## Getting Started
+
+Please watch my [tutorial video](./assets/videos/README-Generator Tutorial.mp4) before getting started.
 
 ## Usage
 
