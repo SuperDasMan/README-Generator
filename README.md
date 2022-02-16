@@ -58,6 +58,6 @@ No specified tests were created for this project.
 
 ## Questions
 
-For any questions, comments, or bug reports, please reach out to me on [GitHub: SuperDasMan](https://github.com/SuperDasMan) or [via Email!](mailto:joshwest.biz@gmail.com)
+For any questions, comments, or bug reports, please reach out to me on [GitHub@SuperDasMan](https://github.com/SuperDasMan) or [via Email!](mailto:joshwest.biz@gmail.com)
   
 _This README was generated with ❤️ by Josh West using [README-generator](https://github.com/SuperDasMan/README-Generator)_
