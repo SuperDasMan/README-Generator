@@ -27,7 +27,7 @@ Built with:
 
 ## Installation
 
-Clone repository and download NodeJS. Open terminal and install npm. Navigate directory to the app's root folder. Run `node index` and answer prompts.
+Clone repository and download NodeJS. Open terminal and navigate directory to the app's root folder. Then run `node i npm` to install npm. Run `node index` and answer prompts.
   
 
 ## Usage
